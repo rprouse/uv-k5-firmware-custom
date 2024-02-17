@@ -5,7 +5,7 @@
 
 
 :: Compile directly in windows without the need of a linux virtual machine:
-:: 
+::
 :: 1. Download and install "gcc-arm-none-eabi-10.3-2021.10-win32.exe" from https://developer.arm.com/downloads/-/gnu-rm
 :: 2. Download and install "gnu_make-3.81.exe" from https://gnuwin32.sourceforge.net/packages/make.htm
 ::
@@ -13,7 +13,7 @@
 ::    C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\bin
 ::
 :: 4. You may (or may not) need to reboot windows after installing the above
-:: 
+::
 :: You can then run this bat from the directory you saved the firmware source code too.
 
 
@@ -22,8 +22,8 @@
 ::
 :: Temporarily add the compiler and make program directories to the system PATH ..
 ::
-@set PATH="C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\bin";%PATH%
-@set PATH="C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\arm-none-eabi\bin";%PATH%
+@set PATH="C:\Program Files (x86)\C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\13.2 Rel1\bin";%PATH%
+@set PATH="C:\Program Files (x86)\C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\13.2 Rel1\arm-none-eabi\bin";%PATH%
 @set PATH="C:\Program Files (x86)\GnuWin32\bin\";%PATH%
 
 :: Do the compile
